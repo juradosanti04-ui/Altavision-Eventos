@@ -1,0 +1,46 @@
+.tarjeta-personalizada 
+{
+  background-color: lab(67.3% 40.55 67.7 / 0.671);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  padding: 15px;
+  box-shadow: 4px 4px 4px 4px chocolate;
+  transition: transform 0.2s ease;
+}
+.tarjeta-personalizada:hover 
+{
+  transform: scale(1.03);
+}
+.tarjeta-personalizada img 
+{
+  width: 520px;
+  height: 720px;
+  border-radius: 5px;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  transform-origin: center;
+}
+.tarjeta-personalizada:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.5);
+}
+.texto-cuadricula 
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: lab(67.3% 40.55 67.7 / 0.671);
+  text-align: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  padding: 10px;
+  color: azure;
+}
+.tarjeta-personalizada:hover .texto-cuadricula 
+{
+  opacity: 1;
+  transform: translateY(0);
+}

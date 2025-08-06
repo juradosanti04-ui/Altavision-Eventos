@@ -1,0 +1,94 @@
+.contenido
+{
+  border: 2px solid wheat;
+  width: 100%;
+  height: auto;
+  background-color: rgba(165, 72, 35, 0.738);
+  display: flex;
+  align-items: center;
+}
+.imagen, .Reserva1
+{
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14pt;
+  color: white;
+}
+.imagen img
+{
+  width: 100%;
+  max-width: 820px;
+  height: 100%;
+  max-height: 330px;
+  border: 2px solid white;
+}
+.imagen2, .Reserva2
+{
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14pt;
+  color:white;
+}
+.imagen2 img
+{
+  width: 100%;
+  max-width: 820px;
+  height: 100%;
+  max-height: 330px;
+  border: 2px solid white; 
+}
+.imagen3, .Reserva3
+{
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14pt;
+  color: white;
+}
+.imagen3 img
+{
+  width: 100%;
+  max-width: 820px;
+  height: 100%;
+  max-height: 330px;
+  border: 2px solid white;
+}
+.imagen4, .Reserva4
+{
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14pt;
+  color: white;
+}
+.imagen4 img
+{
+  width: 100%;
+  max-width: 820px;
+  height: 100%;
+  max-height: 330px;
+  border: 2px solid white;
+}
+.titulo-reservas 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(165, 72, 35, 0.738);
+  border: 2px solid wheat;
+  padding: 20px;
+}
+h1
+{
+  color: wheat;
+  text-align: center;
+  font-size: 24pt;
+  border: 2px solid wheat;
+  background-color: rgba(165, 72, 35, 0.738);
+}

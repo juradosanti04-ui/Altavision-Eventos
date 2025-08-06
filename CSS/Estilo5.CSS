@@ -1,0 +1,59 @@
+.layout 
+{
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.menu-lateral-estatico 
+{
+  width: 220px;
+  background-color: #1f1f1f;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  height: fit-content;
+  position: relative;
+}
+
+.menu-lateral-estatico h5 
+{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  border-bottom: 2px solid #ffc107;
+  padding-bottom: 10px;
+}
+
+.menu-lateral-estatico ul 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-lateral-estatico ul li 
+{
+  margin-bottom: 15px;
+}
+
+.menu-lateral-estatico ul li a 
+{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu-lateral-estatico ul li a:hover 
+{
+  color: #ffc107;
+}
+
+.contenido-tarjetas 
+{
+  flex: 1; /* ocupa todo el resto del espacio */
+}
